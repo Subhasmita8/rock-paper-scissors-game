@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- supports proper text encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive layout -->
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css"> <!-- links external CSS file -->
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <p class="sub-text">Choose your move and try to beat the computer.</p>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="rock.jpeg" alt="rock image">
+        </div>
+
+        <div class="choice" id="paper">
+            <img src="paper.jpeg" alt="paper image">
+        </div>
+
+        <div class="choice" id="scissor">
+            <img src="scissor.jpeg" alt="scissor image">
+        </div>
+    </div>
+
+    <div class="scoreboard">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <div class="message-conatiner">
+        <p id="msg">Play your move!</p>
+    </div>
+
+    <script src="script.js"></script> <!-- links external JavaScript file -->
+</body>
+</html>
